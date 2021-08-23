@@ -43,18 +43,13 @@ body {
     margin: auto;
 }
 
-#undercenterdsc {
+.discord {
     text-decoration: none;
     position: relative;
     top: 135px; /* Change text to the middle of the screen. */
     text-align: center;
-    color: black;
     font-family: 'League Spartan';
     font-size: 22px;
-    display: inherit; /* This and margin fixes the weird center problem (inherit or block)*/
-    margin: 24px, 0px;
-    background: white;
-    padding: 8px, 32px;
 }
 
 /* HEADER */
