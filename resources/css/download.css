@@ -1,0 +1,64 @@
+/*  HEADER */
+
+@font-face {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('League Spartan'), url(https://img1.wsimg.com/blobby/go/font/LeagueSpartan/LeagueSpartan.woff2) format('woff2'),
+     url(https://img1.wsimg.com/blobby/go/font/LeagueSpartan/LeagueSpartan.woff) format('woff');
+}
+
+#topleftunited {
+    font-family: 'League Spartan';
+    color: black;
+}
+
+.hline-bottom {
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+    position: relative;
+    top: -120px; 
+    padding: 0px;
+}
+
+header {
+    font-family: 'Roboto Thin';
+    position: relative;
+    top: -90px; /* Puts the header stuff up. */
+    padding: 20px;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    list-style-position: inside; /* This is so the unordered list can be aligned. */
+    padding: 0;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+li {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+}
